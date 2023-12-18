@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AdessoWL.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:AdessoWL.WebApi.Controllers.CountriesController.GetAll(AdessoWL.Application.Features.Queries.GetAllEvent.GetAllCountryQueryRequest)">
+            <summary>
+				Get all Countries
+			</summary>
+            <param name="request">Empty request body</param>
+            <returns>List of Countries</returns>
+        </member>
+        <member name="M:AdessoWL.WebApi.Controllers.CountriesController.Get(AdessoWL.Application.Features.Queries.GetEvent.GetCountryQueryRequest)">
+            <summary>
+				Get Country by Id
+			</summary>
+            <param name="request">Country identifier number</param>
+            <returns>A Country</returns>
+        </member>
+        <member name="M:AdessoWL.WebApi.Controllers.CountriesController.Create(AdessoWL.Application.Features.Commands.CreateEvent.CreateCountryCommandRequest)">
+            <summary>
+				Add Country to System
+			</summary>
+            <param name="request">Country body</param>
+        </member>
+        <member name="M:AdessoWL.WebApi.Controllers.CountriesController.Delete(AdessoWL.Application.Features.Commands.DeleteEvent.DeleteCountryCommandRequest)">
+            <summary>
+				Delete Country from System
+			</summary>
+            <param name="request">Country identifier number</param>
+        </member>
+        <member name="M:AdessoWL.WebApi.Controllers.CountriesController.Update(AdessoWL.Application.Features.Commands.UpdateEvent.UpdateCountryCommandRequest)">
+            <summary>
+				Update Country in System
+			</summary>
+            <param name="request">Country features</param>
+        </member>
+        <member name="M:AdessoWL.WebApi.Controllers.TeamController.GetAll(AdessoWL.Application.Features.Queries.GetAllEvent.GetAllTeamQueryRequest)">
+            <summary>
+				Get all Teams
+			</summary>
+            <param name="request">Empty request body</param>
+            <returns>List of Teams</returns>
+        </member>
+        <member name="M:AdessoWL.WebApi.Controllers.TeamController.GetAllByCountry(AdessoWL.Application.Features.Queries.GetEvent.GetTeamByCountryQueryRequest)">
+            <summary>
+				Get all Teams by Country
+			</summary>
+            <param name="request">Country identifier number</param>
+            <returns>List of Teams</returns>
+        </member>
+        <member name="M:AdessoWL.WebApi.Controllers.TeamController.Get(AdessoWL.Application.Features.Queries.GetEvent.GetTeamQueryRequest)">
+            <summary>
+				Get Team by Id
+			</summary>
+            <param name="request">Team identifier number</param>
+            <returns>A Team</returns>
+        </member>
+        <member name="M:AdessoWL.WebApi.Controllers.TeamController.Create(AdessoWL.Application.Features.Commands.CreateEvent.CreateTeamCommandRequest)">
+            <summary>
+				Add Team to System
+			</summary>
+            <param name="request">Team body</param>
+        </member>
+        <member name="M:AdessoWL.WebApi.Controllers.TeamController.Delete(AdessoWL.Application.Features.Commands.DeleteEvent.DeleteTeamCommandRequest)">
+            <summary>
+				Delete Team from System
+			</summary>
+            <param name="request">Team identifier number</param>
+        </member>
+        <member name="M:AdessoWL.WebApi.Controllers.TeamController.Update(AdessoWL.Application.Features.Commands.UpdateEvent.UpdateTeamCommandRequest)">
+            <summary>
+				Update Team in System
+			</summary>
+            <param name="request">Team features</param>
+        </member>
+    </members>
+</doc>
